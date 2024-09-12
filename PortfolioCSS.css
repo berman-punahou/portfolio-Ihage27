@@ -1,0 +1,142 @@
+/* General Styles */
+
+
+
+/* Element Selector: Styling the main heading (h1) */
+li {
+    font-size: 20px;
+}
+
+/* Class selectors */
+
+.Inside {
+    z-index: 1;
+
+}
+
+.Outside {
+    z-index: 2;
+
+}
+
+.CarouselCard {
+  width: 100%;
+}
+
+.Guerilla {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-control-prev , .carousel-control-next {
+  position: absolute;
+  top: 15%;
+  transform: TranslateY(-15%);
+}
+     
+.carousel-control-prev {
+  right: auto;
+  left: 20px;
+}
+
+.carousel-control-next {
+  left: auto;
+  right: 20px;
+}
+
+.Carousel {
+    font-size: 20px;
+} 
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 150px;
+  height: 150px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+/* ID Selectors */
+
+#FirstHeader {
+    color: yellow;
+}
+
+#SecondHeader {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#ThirdHeader {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#Outside {
+  position: relative;
+  top: 0px;
+  left: 571px;
+}
+
+#Inside {
+  position: relative;
+  top: 50px;
+  left: 675px; 
+
+}
+
+
+#Audio {
+    visibility: hidden;
+}
+
+#FirstList {
+    color: lightcoral;
+    background-image: url('PunahouHala.png');
+}
+
+#SecondList {
+    font-weight: bolder;
+    color: purple;
+}
+
+#ThirdList {
+    color: orchid;
+    font-weight: bolder;
+
+}
+
+#FirstDiv {
+  background-color: rebeccapurple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

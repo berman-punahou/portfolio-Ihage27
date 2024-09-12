@@ -1,0 +1,103 @@
+/* General Styles */
+
+body {
+    background-color: #444054;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+/* Element Selector: Styling the main heading (h1) */
+
+h1 {
+    color: #FBFFB9;
+    background-color: #D81E5B;
+
+}
+p {
+    color: #5F00BA; 
+    background-color: #FBDEC2;
+}
+
+ul {
+    Color: #D81E5B;
+    background-color: #7CB518;
+}
+
+Button {
+    font-size: 50px;
+}
+/* Class selectors */
+ .highlight {
+    background-color: lightyellow;
+}
+
+.blahblahblah {
+    color: brown;
+    font-weight: bolder;
+}
+
+.matemasie-regular {
+  font-family: "Matemasie", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.InsideMore {
+    z-index: 1;
+
+}
+
+.Inside {
+    z-index: 2;
+
+}
+
+.Outside {
+    z-index: 3;
+
+}
+
+
+
+/* ID Selectors */
+#matemasie-regular {
+    font-family: "Matemasie", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: mediumpurple;
+}
+
+#emphasis {
+    background-color: yellow;
+    color: red;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#Outside {
+  position: relative;
+  top: 0px;
+  left: 342px;
+}
+
+#Inside {
+  position: relative;
+  top: 0px;
+  left: 699px; 
+
+}
+
+#InsideMore {
+    Position: relative;
+    top: 0px;
+}
+
+/* I can't move this guy left or right for some reason */ 
+
+
+
+
+
+
